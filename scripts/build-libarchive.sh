@@ -39,7 +39,7 @@ mkdir -p "$OUT/source" "$OUT/obj"
 tar -xf "$PACKAGE" -C "$OUT/source" --strip-components=1
 cd "$OUT/obj"
 export PKG_CONFIG=/usr/bin/false
-../source/configure "${CONFIG_HOST[@]}" --enable-static --disable-shared \
+../source/configure ${CONFIG_HOST[@]+"${CONFIG_HOST[@]}"} --enable-static --disable-shared \
   --disable-bsdtar --disable-bsdcat --disable-bsdcpio --disable-bsdunzip \
   --disable-acl --disable-xattr --without-openssl --without-cng --without-xml2 \
   --without-expat --without-libb2 --without-lz4 --without-zstd --without-iconv \
