@@ -28,7 +28,7 @@ struct FileStore: Sendable {
     let root: URL
     var imports: URL { root.appendingPathComponent("Imports", isDirectory: true) }
     var extracted: URL { root.appendingPathComponent("Extracted", isDirectory: true) }
-    private let fm = FileManager.default
+    private var fm: FileManager { .default }
     func prepare() throws {
         for folder in [root, imports, extracted] {
             if fm.fileExists(atPath: folder.path) { _ = try checked(folder) }
