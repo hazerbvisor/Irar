@@ -1,0 +1,33 @@
+name: Build Irar iOS
+on:
+  push:
+    branches: [main, feature/native-rar-extractor]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify project and test the archive backend
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          plutil -lint Irar/Info.plist Irar.xcodeproj/project.pbxproj
+          bash tests/run-tests.sh
+      - name: Build iPhone and iPad app
+        run: |
+          set -euo pipefail
+          xcodebuild -project Irar.xcodeproj -scheme Irar -configuration Release \
+            -destination 'generic/platform=iOS' -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO build
+      - name: Package IPA
+        run: bash scripts/package-ipa.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Irar-unsigned-ipa
+          path: build/Irar-unsigned.ipa
+          if-no-files-found: error
