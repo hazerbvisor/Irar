@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+        80571F43792DF43A14C04472 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "IrarApp.swift";
+            sourceTree = "<group>";
+        };
+        ED3C00368A17E21070F3267E = {
+            isa = PBXBuildFile;
+            fileRef = 80571F43792DF43A14C04472;
+        };
+        F91410F426F256755F90F3E6 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "Core/ArchiveService.swift";
+            sourceTree = "<group>";
+        };
+        BC4CAF5705822914A22C9E1F = {
+            isa = PBXBuildFile;
+            fileRef = F91410F426F256755F90F3E6;
+        };
+        57722606BFD5BC60135D5674 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "Core/FileStore.swift";
+            sourceTree = "<group>";
+        };
+        8F66ED16FE5E1CD0942470D8 = {
+            isa = PBXBuildFile;
+            fileRef = 57722606BFD5BC60135D5674;
+        };
+        885304DB8897BA03B53F53AC = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.c;
+            path = "Core/ArchiveBridge.c";
+            sourceTree = "<group>";
+        };
+        DA7318D60C6E3B21B5C5F16A = {
+            isa = PBXBuildFile;
+            fileRef = 885304DB8897BA03B53F53AC;
+        };
+        75F0673D3944A7D0541C0839 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "UI/AppModel.swift";
+            sourceTree = "<group>";
+        };
+        9107ADA5EDCE2746CCECBFE6 = {
+            isa = PBXBuildFile;
+            fileRef = 75F0673D3944A7D0541C0839;
+        };
+        6891C04721B7CA007D80D3A2 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "UI/ContentView.swift";
+            sourceTree = "<group>";
+        };
+        50081A9E436BF5CB1B9F450E = {
+            isa = PBXBuildFile;
+            fileRef = 6891C04721B7CA007D80D3A2;
+        };
+        D469E9B066076E3A2372F014 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "UI/ArchiveDetailsView.swift";
+            sourceTree = "<group>";
+        };
+        2D6BB1E827F6EFCAC174B68B = {
+            isa = PBXBuildFile;
+            fileRef = D469E9B066076E3A2372F014;
+        };
+        E6F690586390C37482F88510 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "UI/ExportPicker.swift";
+            sourceTree = "<group>";
+        };
+        E8D02FE5727089975D21550F = {
+            isa = PBXBuildFile;
+            fileRef = E6F690586390C37482F88510;
+        };
+        B8D4225E8ECA27D687A41F6D = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = "UI/AboutView.swift";
+            sourceTree = "<group>";
+        };
+        27430321D567EC4C34BF69C7 = {
+            isa = PBXBuildFile;
+            fileRef = B8D4225E8ECA27D687A41F6D;
+        };
+        0DD6A4007FE475C75BB9C141 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.h;
+            path = "Irar-Bridging-Header.h";
+            sourceTree = "<group>";
+        };
+        98BF82813FA9676BE11C3967 = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.c.h;
+            path = "Core/ArchiveBridge.h";
+            sourceTree = "<group>";
+        };
+        28AAD1477D5182D66D4B03B3 = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder.assetcatalog;
+            path = "Assets.xcassets";
+            sourceTree = "<group>";
+        };
+        A0CA4E1758823471A02FE2F1 = {
+            isa = PBXBuildFile;
+            fileRef = 28AAD1477D5182D66D4B03B3;
+        };
+        EE92C8A4B63C9522CF632CE9 = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder;
+            path = "Licenses";
+            sourceTree = "<group>";
+        };
+        B219E3C0C03B13C4FBE813A5 = {
+            isa = PBXBuildFile;
+            fileRef = EE92C8A4B63C9522CF632CE9;
+        };
+        7B594B6DB375E1BF3F23CDD6 = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            path = "Info.plist";
+            sourceTree = "<group>";
+        };
+        7D1043473D55BFA90E8530D3 = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            path = "Irar.app";
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        3A2A88DEEFF3D1D23E496597 = {
+            isa = PBXGroup;
+            children = (
+                80571F43792DF43A14C04472,
+                F91410F426F256755F90F3E6,
+                57722606BFD5BC60135D5674,
+                885304DB8897BA03B53F53AC,
+                75F0673D3944A7D0541C0839,
+                6891C04721B7CA007D80D3A2,
+                D469E9B066076E3A2372F014,
+                E6F690586390C37482F88510,
+                B8D4225E8ECA27D687A41F6D,
+                0DD6A4007FE475C75BB9C141,
+                98BF82813FA9676BE11C3967,
+                28AAD1477D5182D66D4B03B3,
+                EE92C8A4B63C9522CF632CE9,
+                7B594B6DB375E1BF3F23CDD6,
+            );
+            path = "Irar";
+            sourceTree = "<group>";
+        };
+        FBDC4F23F93125BBEEAE800C = {
+            isa = PBXGroup;
+            children = (
+                7D1043473D55BFA90E8530D3,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        B28B7AF69320201D1CF206EB = {
+            isa = PBXGroup;
+            children = (
+                3A2A88DEEFF3D1D23E496597,
+                FBDC4F23F93125BBEEAE800C,
+            );
+            sourceTree = "<group>";
+        };
+        EBFB55F4432B592119A10592 = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+                "$(SRCROOT)/scripts/build-libarchive.sh",
+                "$(SRCROOT)/vendor/libarchive-3.8.7.tar.xz",
+                "$(SRCROOT)/Irar/Core/ArchiveBridge.c",
+                "$(SRCROOT)/Irar/Core/ArchiveBridge.h",
+            );
+            outputPaths = (
+                "$(TARGET_TEMP_DIR)/libarchive/libarchive.a",
+                "$(TARGET_TEMP_DIR)/libarchive/archive.h",
+                "$(TARGET_TEMP_DIR)/libarchive/archive_entry.h",
+            );
+            name = "Build libarchive";
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = "/bin/bash";
+            shellScript = "\"$SRCROOT/scripts/build-libarchive.sh\"";
+        };
+        BCE16DD0260827ECF338C787 = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                ED3C00368A17E21070F3267E,
+                BC4CAF5705822914A22C9E1F,
+                8F66ED16FE5E1CD0942470D8,
+                DA7318D60C6E3B21B5C5F16A,
+                9107ADA5EDCE2746CCECBFE6,
+                50081A9E436BF5CB1B9F450E,
+                2D6BB1E827F6EFCAC174B68B,
+                E8D02FE5727089975D21550F,
+                27430321D567EC4C34BF69C7,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        7561BFB015D8F536760CB671 = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        0189424A5A60FED329FA868E = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A0CA4E1758823471A02FE2F1,
+                B219E3C0C03B13C4FBE813A5,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        89E1FD6268CC0F221A2BE178 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                SWIFT_COMPILATION_MODE = singlefile;
+                ENABLE_TESTABILITY = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+            };
+            name = Debug;
+        };
+        7082CC0B6FC1282FCEABD07A = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                MARKETING_VERSION = 1.0.0;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = "Irar/Info.plist";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.hazerbvisor.Irar";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SUPPORTS_MACCATALYST = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SWIFT_OBJC_BRIDGING_HEADER = "Irar/Irar-Bridging-Header.h";
+                ENABLE_USER_SCRIPT_SANDBOXING = NO;
+                HEADER_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "$(TARGET_TEMP_DIR)/libarchive",
+                );
+                OTHER_LDFLAGS = (
+                    "$(inherited)",
+                    "$(TARGET_TEMP_DIR)/libarchive/libarchive.a",
+                    "-lz",
+                );
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+            };
+            name = Debug;
+        };
+        E6DE6C99132752C914FEF632 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                SWIFT_COMPILATION_MODE = wholemodule;
+                ENABLE_TESTABILITY = NO;
+            };
+            name = Release;
+        };
+        639A7CA24D39909E713B47F7 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                MARKETING_VERSION = 1.0.0;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = "Irar/Info.plist";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.hazerbvisor.Irar";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SUPPORTS_MACCATALYST = NO;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                SWIFT_OBJC_BRIDGING_HEADER = "Irar/Irar-Bridging-Header.h";
+                ENABLE_USER_SCRIPT_SANDBOXING = NO;
+                HEADER_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "$(TARGET_TEMP_DIR)/libarchive",
+                );
+                OTHER_LDFLAGS = (
+                    "$(inherited)",
+                    "$(TARGET_TEMP_DIR)/libarchive/libarchive.a",
+                    "-lz",
+                );
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+            };
+            name = Release;
+        };
+        862894B703A6DEDF96A9DD6C = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                89E1FD6268CC0F221A2BE178,
+                E6DE6C99132752C914FEF632,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        C57128001CE614BF8549D6BB = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                7082CC0B6FC1282FCEABD07A,
+                639A7CA24D39909E713B47F7,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        0E8A3AD980EC179856012B7E = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = C57128001CE614BF8549D6BB;
+            buildPhases = (
+                EBFB55F4432B592119A10592,
+                BCE16DD0260827ECF338C787,
+                7561BFB015D8F536760CB671,
+                0189424A5A60FED329FA868E,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Irar;
+            productName = Irar;
+            productReference = 7D1043473D55BFA90E8530D3;
+            productType = "com.apple.product-type.application";
+        };
+        98F54143AB4E86B28C3AFEE0 = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = YES;
+                LastUpgradeCheck = 1600;
+                LastSwiftUpdateCheck = 1600;
+            };
+            buildConfigurationList = 862894B703A6DEDF96A9DD6C;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = B28B7AF69320201D1CF206EB;
+            productRefGroup = FBDC4F23F93125BBEEAE800C;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                0E8A3AD980EC179856012B7E,
+            );
+        };
+    };
+    rootObject = 98F54143AB4E86B28C3AFEE0;
+}
