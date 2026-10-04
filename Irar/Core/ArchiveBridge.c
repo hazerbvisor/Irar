@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 #define _POSIX_C_SOURCE 200809L
+#ifdef __APPLE__
+#define _DARWIN_C_SOURCE 1 // Expose O_NOFOLLOW alongside POSIX APIs on Darwin.
+#endif
 #include "ArchiveBridge.h"
 #include <archive.h>
 #include <archive_entry.h>

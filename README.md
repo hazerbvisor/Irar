@@ -25,7 +25,7 @@ RAR and RAR5 support uses libarchive's readers; some unusual compression variant
 
 Keep Irar in the foreground while working. Import stores a local copy, and extraction needs enough space for the uncompressed files. Cancelled or failed extractions retain completed files and remove the file being written. Archives containing links, special files or unsafe paths are rejected.
 
-Inspection is limited to 100,000 entries and 32 MiB of names, with a 4,096-byte path limit. If inspection reaches a limit, extraction is unavailable for that archive. See [Implementation and validation](docs/BUILDING.md#implementation-and-validation) for details.
+Inspection is limited to 100,000 entries and 32 MiB of metadata, with a 4,096-byte path limit. If inspection reaches a limit, extraction is unavailable for that archive. See [Implementation and validation](docs/BUILDING.md#implementation-and-validation) for details.
 
 ## License
 
